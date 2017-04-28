@@ -1,0 +1,86 @@
+body
+{
+    padding: 5px 250px 10px 250px;
+    background: #545454;
+}
+header
+{
+    color: #FFFFFF;
+    font: 110% "Franklin Gothic Book";
+    line-height: 1px;
+}
+h2
+{
+    font: 100% "Franklin Gothic Book"; 
+    line-height: 1px;
+}
+#menu
+{
+    background: #FF8000 ;
+    float: left;
+    width: 100%;
+    font: bold 110% monospace;
+}
+#menu li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 15px 8px 0px 0px;
+    color:#FFFFFF;
+}
+#menu li:hover
+{
+    background-color: #383838;
+}
+p
+{
+    text-align: justify;
+}
+#lado1
+{
+    float: left;
+    width: 80%;
+    background: #FFFFFF;
+    font: bold 100% monospace;
+}
+#lado1 h2
+{
+    color: #FF8000;
+    font-size: 160%;
+}
+#lado1 article
+{
+    padding: 0px 30px;
+}
+#lado2
+{
+    float: left;
+    width: 20%;
+    height: 497px;
+    background: #FFFFFF; 
+    font: bold 100% monospace;
+
+}
+#lado2 ul
+{
+    list-style-type: none;
+}
+#lado2 li
+{
+    color: #FF8000;
+    padding: 0px 10px ;
+}
+#pie
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font: 100% "Franklin Gothic Book";
+    padding: 10px 0px 10px 0px;
+}
+#pie u
+{
+    color: #FF8000;
+    font: 100% "Franklin Gothic Book";
+}

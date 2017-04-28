@@ -1,46 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Mi primera pagina web</title>
-		<style type="text/css">
-
-			ul.menu {
-				clear: both;
-				background-color: #000;
-				color: #fff;
-				float: left;
-				list-style: none;
-				width: 100%;
-				padding: 5px;
-				margin: 0px;
-			}
-			ul.menu li {
-				float: left;
-				margin: 30px;
-			}
-		</style>
-	</head>
-	<body>
-		<h1>Website Title</h1>
-		<h2>Subheader, website description H2</h2>
-		<div id="header">
-			<ul class="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Photos</a></li>
-				<li><a href="#">Links</a></li>
-				<li><a href="#">Forum</a></li>
-				<li><a href="#">free Stuff</a></li>
-				<li><a href="#">Downloads</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">SiteMap</a></li>
-			</ul>
-		</div>
-		<h1><u>License and terms of use</u></h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend turpis eget mi pharetra maximus. Etiam suscipit, magna nec condimentum eleifend, purus arcu ultrices nulla, vel facilisis libero nulla et nisl. Sed sit amet ultrices massa. Maecenas quis lacus quis tellus blandit cursus. Aenean vel congue sapien, sed vulputate nisi. Nulla ultrices vestibulum libero, tempus gravida purus sagittis ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat nulla nec pretium ullamcorper. Aliquam at justo purus.</p>
-		<img src="images/pic.jpg" alt="Smiley face" height="143" width="462">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend turpis eget mi pharetra maximus. Etiam suscipit, magna nec condimentum eleifend, purus arcu ultrices nulla, vel facilisis libero nulla et nisl. Sed sit amet ultrices massa. Maecenas quis lacus quis tellus blandit cursus. Aenean vel congue sapien, sed vulputate nisi. Nulla ultrices vestibulum libero, tempus gravida purus sagittis ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat nulla nec pretium ullamcorper. Aliquam at justo purus.</p>
-		<h1><a href="https://www.w3schools.com/">Title with a link - Example of heading 2</a></h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend turpis eget mi pharetra maximus. Etiam suscipit, magna nec condimentum eleifend, purus arcu ultrices nulla, vel facilisis libero nulla et nisl. Sed sit amet ultrices massa. Maecenas quis lacus quis tellus blandit cursus. Aenean vel congue sapien, sed vulputate nisi. Nulla ultrices vestibulum libero, tempus gravida purus sagittis ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat nulla nec pretium ullamcorper. Aliquam at justo purus.</p>
-	</body>
+<head>
+    <title>Intro a HTML y CSS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div id='cabecera'>
+    <header>
+        <h1>Website Title</h1>
+        <h2>Subheader, website description H2</h2>
+    </header>
+    <div id='menu'>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Photos</li>
+                <li>Links</li>
+                <li>Forum</li>
+                <li>Free stuff</li>
+                <li>Downloads</li>
+                <li>Productos</li>
+                <li>SiteMap</li>
+            </ul>
+        </nav>
+    </div>
+    <div id='lado1'> 
+        <section>
+            <article>
+                <h2><u>License and terms of use</u></h2>
+                <p>
+                    OrangeSquarShadow Rounded is a CSS dolor, consectetuer adipiscing elit. <u><b>Free CSS templates</b></u> commodo dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, <b>Creative Commons Attributions 2.5</b> license. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla arcu.
+                </p> 
+                <img src="images/foto.jpg">
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+            </article>
+            <article>
+                <h2><u>Title with a link - Example of heading 2</u></h2>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+            </article>
+            
+        </section>
+    </div>
+    
+    <div id='lado2'>
+        <aside>
+             <ul>
+                <h4>Categories:</h4>
+                 <li>Word Politics</li>
+                 <li>Europe Sport</li>
+                 <li>Networking</li>
+                 <li>Nature - África</li>
+                 <li>SuperCool</li>
+                 <li>Last Category</li>
+             </ul>   
+             <ul>
+                <h4>Archives</h4>
+                 <li>January 2007</li>
+                 <li>February 2007</li>
+                 <li>March 2007</li>
+                 <li>April 2007</li>
+                 <li>May 2007</li>
+                 <li>June 2007</li>
+                 <li>July 2007</li>
+                 <li>August 2007</li>
+                 <li>September 2007</li>
+                 <li>October 2007</li>
+                 <li>November 2007</li>
+                 <li>December 2007</li>
+             </ul>    
+        </aside>
+    </div>
+    <div id='pie'>
+        <footer>
+            Designed by <u>Free CSS Templates</u>, Thanks to <u>web design</u>
+        </footer>
+    </div>
+</div>
+</body>
 </html>
